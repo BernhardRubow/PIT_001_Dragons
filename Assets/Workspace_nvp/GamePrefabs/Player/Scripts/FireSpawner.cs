@@ -8,6 +8,7 @@ public class FireSpawner : MonoBehaviour
 
     // +++ fields +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     [SerializeField] private GameObject _dragonFire;
+    [SerializeField] private Transform _fireSpawnPoint;
 
     private bool _isReady = true;
 
@@ -34,7 +35,7 @@ public class FireSpawner : MonoBehaviour
         if (!_isReady) return;
         //Debug.LogFormat("{0} shoot", Time.realtimeSinceStartup);
         _isReady = false;
-        Instantiate(this._dragonFire, this.transform.position, this.transform.rotation);
+        Instantiate(this._dragonFire, _fireSpawnPoint.position, _fireSpawnPoint.rotation);
 
         await System.Threading.Tasks.Task.Delay(500);
         _isReady = true;
