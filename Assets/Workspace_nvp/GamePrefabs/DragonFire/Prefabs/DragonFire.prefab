@@ -55,9 +55,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4020495859758666897}
   - component: {fileID: 8356560710368417747}
+  - component: {fileID: 934461125}
   m_Layer: 0
   m_Name: DragonFire_Placeholder
-  m_TagString: Untagged
+  m_TagString: PlayerProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,3 +125,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &934461125
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5205553577148147370}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 2.56}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.76, y: -0.26}
+      - {x: 0.83, y: -0.17999999}
+      - {x: 0.87, y: -0.089999996}
+      - {x: 0.87, y: 0.14}
+      - {x: 0.71, y: 0.32999998}
+      - {x: 0.65, y: 0.37}
+      - {x: 0.5, y: 0.45999998}
+      - {x: 0.35999998, y: 0.51}
+      - {x: 0.21, y: 0.53999996}
+      - {x: -0.17, y: 0.53999996}
+      - {x: -0.37, y: 0.5}
+      - {x: -0.5, y: 0.45}
+      - {x: -0.65, y: 0.37}
+      - {x: -0.84, y: 0.17999999}
+      - {x: -0.87, y: 0.11}
+      - {x: -0.87, y: -0.07}
+      - {x: -0.85999995, y: -0.14}
+      - {x: -0.82, y: -0.21}
+      - {x: -0.65999997, y: -0.39}
+      - {x: -0.37, y: -0.51}
+      - {x: -0.16, y: -0.53999996}
+      - {x: 0.17, y: -0.53999996}
+      - {x: 0.37, y: -0.5}
+      - {x: 0.5, y: -0.45999998}
+      - {x: 0.65, y: -0.37}

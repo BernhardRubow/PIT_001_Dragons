@@ -20,8 +20,10 @@ public class PlayerKiller : MonoBehaviour
         }        
     }
 
+   
     void OnCollisionEnter2D(Collision2D other)
     {
+        if(other.collider.tag == "PlayerProjectile") return;
         KillPlayer();
     }
     

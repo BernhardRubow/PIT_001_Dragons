@@ -83,6 +83,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _uppderBound: 6
+  _lowerBound: 0
 --- !u!114 &8422971791268073498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,7 +111,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2be4e935a7c62944aac9cdf0282289d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dragonFire: {fileID: 0}
+  _dragonFire: {fileID: 2324513966152627319, guid: f2918d93c4454bf41bd200b578fbf2e8,
+    type: 3}
+  _fireSpawnPoint: {fileID: 6135959056410376090}
 --- !u!1 &4893551310714073468
 GameObject:
   m_ObjectHideFlags: 0
